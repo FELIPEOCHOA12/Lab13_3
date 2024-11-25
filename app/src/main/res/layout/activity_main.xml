@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnSimpleValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cómo animar un cambio simple de valor" />
+
+    <Button
+        android:id="@+id/btnVisibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cómo animar la visibilidad" />
+
+    <Button
+        android:id="@+id/btnSizeChange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cómo animar el cambio de tamaño del contenido" />
+
+    <Button
+        android:id="@+id/btnMultipleValues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cómo animar varios valores" />
+
+    <Button
+        android:id="@+id/btnRepeatAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cómo repetir animaciones" />
+
+    <Button
+        android:id="@+id/btnGestureAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animación gestual" />
+
+</LinearLayout>
